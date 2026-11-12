@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440" role="img" aria-labelledby="title desc">
+  <title id="title">The prompt recipe: action, details, data, format, conditions</title>
+  <desc id="desc">Five ingredients guide a model response. State an action, add audience and constraints, delimit input data, define output format, and give conditions with fallbacks. Inspect the response and refine the prompt.</desc>
+  <rect width="1120" height="440" rx="18" fill="#101d30"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="44" fill="#6ee7cf" font-size="13" font-weight="700" letter-spacing="2">PROMPT ENGINEERING / CHAPTER 1</text>
+    <text x="40" y="88" fill="#f5f8fc" font-size="32" font-weight="700">A good prompt is a clear recipe.</text>
+    <text x="40" y="117" fill="#bdcddd" font-size="17">Tell the model what to do, what to use, and what the answer should look like.</text>
+    <g fill="#1b2d44" stroke="#3c5067"><rect x="40" y="150" width="196" height="160" rx="10"/><rect x="251" y="150" width="196" height="160" rx="10"/><rect x="462" y="150" width="196" height="160" rx="10"/><rect x="673" y="150" width="196" height="160" rx="10"/><rect x="884" y="150" width="196" height="160" rx="10"/></g>
+    <g fill="#6ee7cf" font-size="13" font-weight="700"><text x="58" y="178">01 / ACTION</text><text x="269" y="178">02 / DETAILS</text><text x="480" y="178">03 / DATA</text><text x="691" y="178">04 / FORMAT</text><text x="902" y="178">05 / CONDITIONS</text></g>
+    <g fill="#f5f8fc" font-size="21" font-weight="700"><text x="58" y="212">Do what?</text><text x="269" y="212">For whom?</text><text x="480" y="212">Use what?</text><text x="691" y="212">Return how?</text><text x="902" y="212">What if?</text></g>
+    <g fill="#bdcddd" font-size="16"><text x="58" y="246">Write · summarize</text><text x="58" y="271">Explain · classify</text><text x="269" y="246">Context · audience</text><text x="269" y="271">Style · length</text><text x="480" y="246">Insert with f-strings</text><text x="480" y="271">Mark with delimiters</text><text x="691" y="246">Table · list · labels</text><text x="691" y="271">Name every field</text><text x="902" y="246">If → action</text><text x="902" y="271">Else → fallback</text></g>
+    <path d="M40 340 H1080" stroke="#3c5067"/>
+    <text x="40" y="377" fill="#6ee7cf" font-size="19" font-weight="700">WRITE → INSPECT → REFINE</text>
+    <text x="40" y="407" fill="#bdcddd" font-size="16">Check meaning, format, and completion. A clear prompt still needs enough output tokens.</text>
+  </g>
+</svg>
