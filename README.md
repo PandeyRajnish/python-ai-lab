@@ -4,7 +4,7 @@
 
 ## Start learning
 
-Start with OpenAI API basics, then move to prompt engineering. Click a course name to open its notes.
+Start with OpenAI API basics, then move to prompt engineering and advanced techniques. Click a course name to open its notes.
 
 ### 1. [OpenAI API](src/openai_api/README.md)
 
@@ -13,6 +13,10 @@ Learn how to send API requests, create and summarize text, use examples in promp
 ### 2. [Prompt Engineering with the OpenAI API](src/prompt_engineering/README.md)
 
 Learn how to write clear prompts, separate instructions from input text, choose an answer format, and add conditions. Includes visual guides, practice links, and quick revision questions.
+
+### 3. [Advanced Prompt Engineering Techniques](src/advanced_prompt_engineering_techniques/README.md)
+
+Learn how to guide answers with examples, split tasks into steps, check calculations, compare answers, and improve prompts. Includes a mind map, flow diagrams, and recall questions.
 
 ## Find your way around
 
