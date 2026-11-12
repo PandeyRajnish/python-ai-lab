@@ -9,7 +9,7 @@ from get_response import get_response
 # Create a multi-step prompt asking the model to make a plan for a beach vacation, which should include: four potential locations, each with some accommodation options, some activities, and an evaluation of the pros and cons.
 
 # Create a prompt detailing steps to plan the trip
-prompt = """Make a plan for a beach location by following these steps:
+prompt = """Make a plan for a beach vacation by following these steps:
 Step 1: Suggest four potential beach vacation locations.
 
 Step 2: For each location, recommend some accommodation options.
