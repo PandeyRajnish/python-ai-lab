@@ -1,0 +1,22 @@
+from get_response import get_response
+
+# Iterative prompt engineering for few-shot prompts
+# You are currently working on a project at your content creation company. The project's objective is to develop a text classification model capable of accurately identifying and categorizing different emotions in text, such as happiness, sadness, and fear. In cases where the text does not contain any discernible emotion, you aim for the model to respond with "no explicit emotion."
+
+# You decided to use the provided few-shot prompt. However, you've noticed that "Time flies like an arrow" is being incorrectly classified as "surprise." Your objective now is to refine the prompt so that the model correctly classifies this particular example as "no explicit emotion."
+
+# Instructions
+# Iteratively refine the prompt, by refining the examples, to get the output no explicit emotion for the "They sat and ate their meal" example.
+
+# Refine the following prompt
+prompt = """
+Receiving a promotion at work made me feel on top of the world -> Happiness
+The movie's ending left me with a heavy feeling in my chest -> Sadness
+Walking alone in the dark alley sent shivers down my spine -> Fear
+Time flies like an arrow -> no explicit emotion
+She opened the door and entered the room -> no explicit emotion
+They sat and ate their meal ->
+"""
+
+response = get_response(prompt)
+print(response)
